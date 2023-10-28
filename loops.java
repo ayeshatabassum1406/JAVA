@@ -9,6 +9,7 @@ public class loops {
         }
         //loop2
         int[] arr={1,2,3,4,5,6,7,8,9,10};
+        //for(datatype variablename:arrayname)
         for(int j:arr)
         {
             System.out.println("loop2: j= "+j);
