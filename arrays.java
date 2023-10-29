@@ -1,7 +1,15 @@
 public class arrays {
     public static void main(String[] args) {//main
-        //datatype[] arrayname; declaration
-        // datatype[] arrayname={value1,value2.......valuen};
+        //datatype[] arrayname; declaration int[] arr;
+        //array creation arr = new int[10];
+        // datatype[] arrayname={value1,value2.......valuen}; or datatype[] arrayname = new int[array_size];//declartion and initialization
+        int[] array=new int[10];
+        for(int i=0;i<array.length;i++){
+            array[i]=2*i;
+        }
+        for (int i = 0; i < array.length; i++){
+        System.out.println("2x"+i+"="+array[i]);
+        }
         String[] arr={"hello","hi","good"};
         //to access array: arrayname[indexnumber]
         System.out.println(arr[1]);
