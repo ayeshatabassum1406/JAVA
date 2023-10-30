@@ -14,6 +14,18 @@ public class loops {
         {
             System.out.println("loop2: j= "+j);
         }
+        //while
+        int k=0;
+        while(k<10){
+            System.out.println("while:"+k);
+            k++;
+        }
+        //do while
+        int p = 0;
+        do {
+            System.out.println(" do while:" + p);
+            p++;
+        }while (p < 10);
 
     }
 }
