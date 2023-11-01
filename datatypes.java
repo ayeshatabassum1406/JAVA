@@ -10,7 +10,11 @@ public class datatypes{
         char c1='a';//a
         char c2=65;//A
         String st="I love java";
-
+        //FINAL KEYWORD
+        final int fin=75; //unchanged variable and is read only
+        //scientific numbers
+        // e or E indicats power of 10
+        float sc=35e3f;// with power of 10 raise to 3 and precision 3
         System.out.println("byte="+b);//syso
         System.out.println("short=" + s);
         System.out.println("int=" + i);
@@ -21,5 +25,7 @@ public class datatypes{
         System.out.println("char=" + c1);
         System.out.println("char=" + c2);
         System.out.println("string=" + st);
+        System.out.println("final ="+fin);
+        System.out.println(sc);
     }
 }
