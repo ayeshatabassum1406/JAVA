@@ -25,7 +25,11 @@ public class arrays {
         int[][] arr2={{1,2,3},{4,5,6}};
         //to acess array:arrayname[row][col]
         System.out.println(arr2[0][2]);
-
+        for(int i=0;i<arr2.length;++i){
+            for(int j=0;j<arr2.length;++j){
+                System.out.println(arr2[i][j]);
+            }
+        }
         
     }
 
