@@ -3,7 +3,7 @@ public class multiclassmethod2 {
         multiclassmethod obj1=new multiclassmethod();
         obj1.add(2,3);
         System.out.println(obj1.sub(3,2));
-        multi(2,3);
+        obj1.multi(2,3);
         System.out.println(obj1.div(7,4));
     }
 }
